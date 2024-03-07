@@ -46,14 +46,14 @@ local WindowStroke = Instance.new("UIStroke")
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-MAIN.Name = "Hồ sơ đạt villa"
+MAIN.Name = "datcute"
 MAIN.Parent = ScreenGui
 MAIN.BackgroundColor3 = Color3.fromRGB(4, 4, 4)
 MAIN.AnchorPoint = Vector2.new(0.5,0.5)
 MAIN.Position = UDim2.new(0.5, 0, 0.5, 0)
 MAIN.Size = UDim2.new(0, 357, 0, 158)
 
-WindowStroke.Name = "WindowStroke"
+WindowStroke.Name = "datcute"
 WindowStroke.Parent = MAIN
 WindowStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 WindowStroke.Color = Color3.fromRGB(255,255,255)
@@ -63,7 +63,7 @@ WindowStroke.Transparency = 0
 WindowStroke.Enabled = true
 WindowStroke.Archivable = true
 
-LOGO.Name = "LOGO"
+LOGO.Name = "datcute"
 LOGO.Parent = MAIN
 LOGO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LOGO.BackgroundTransparency = 1.000
@@ -74,14 +74,14 @@ LOGO.Image = "rbxassetid://16656144525"
 UICorner.CornerRadius = UDim.new(0, 5)
 UICorner.Parent = MAIN
 
-BAR.Name = "BAR"
+BAR.Name = "datcute"
 BAR.Parent = MAIN
 BAR.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BAR.BorderSizePixel = 0
 BAR.Position = UDim2.new(0.106, 0,0.835, 0)
 BAR.Size = UDim2.new(0, 0, 0, 15)
 
-UICorner_2.Parent = BAR
+UICorner_2.Parent = datcute
 
 TITLE.Name = "nguyenthanhdat"
 TITLE.Parent = MAIN
@@ -138,11 +138,11 @@ local mainopens = Instance.new("UICorner")
 local loki = Instance.new("ImageLabel")
 local posto = Instance.new("UIStroke")
 
-openshit.Name = "openshit"
+openshit.Name = "datcute"
 openshit.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 openshit.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-mainopen.Name = "mainopen"
+mainopen.Name = "datcute"
 mainopen.Parent = openshit
 mainopen.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 mainopen.Position = UDim2.new(0.101969875, 0, 0.110441767, 0)
@@ -262,12 +262,12 @@ local keybind = keybind or Enum.KeyCode.RightControl
 local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
 
 local ZENHUB = Instance.new("ScreenGui")
-ZENHUB.Name = "ZENHUB"
+ZENHUB.Name = "datcute"
 ZENHUB.Parent = game.CoreGui
 ZENHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local Main = Instance.new("Frame")
-Main.Name = "Main"
+Main.Name = "datcute"
 Main.Parent = ZENHUB
 Main.ClipsDescendants = true
 Main.AnchorPoint = Vector2.new(0.5,0.5)
@@ -285,7 +285,7 @@ MCNR.Name = "MCNR"
 MCNR.Parent = Main
 
 local Top = Instance.new("Frame")
-Top.Name = "Top"
+Top.Name = "datcute"
 Top.Parent = Main
 Top.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 --Top.Size = UDim2.new(0, 656, 0, 27)
@@ -317,7 +317,7 @@ Name.TextColor3 = Color3.fromRGB(225, 225, 225)
 Name.TextSize = 17.000
 
 local Hub = Instance.new("TextLabel")
-Hub.Name = "Hub"
+Hub.Name = "datcute hub"
 Hub.Parent = Top
 Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Hub.BackgroundTransparency = 1.000
