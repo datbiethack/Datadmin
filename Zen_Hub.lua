@@ -262,13 +262,13 @@ local keybind = keybind or Enum.KeyCode.RightControl
 local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
 
 local ZENHUB = Instance.new("ScreenGui")
-ZENHUB.Name = "datcute"
+ZENHUB.Name = "dat hub"
 ZENHUB.Parent = game.CoreGui
 ZENHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local Main = Instance.new("Frame")
-Main.Name = "datcute"
-Main.Parent = ZENHUB
+Main.Name = "dat hub"
+Main.Parent = dat hub
 Main.ClipsDescendants = true
 Main.AnchorPoint = Vector2.new(0.5,0.5)
 Main.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
