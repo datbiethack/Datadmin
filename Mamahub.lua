@@ -17,7 +17,7 @@ Dịch Vụ Space Cảm Ơn Bạn Đã Tin Tưởng Và Sử Dụng Dịch Vụ 
 ]]
 ---///--------------------------------------------------------------\\\---
 
-local ScreenGui = Instance.new("ScreenGui")
+local ScreenGui =Hub Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
 
@@ -83,7 +83,7 @@ local ActualTypes = {
 local Properties = {
 	RoundFrame = {
 		BackgroundTransparency = 1,
-		Image = "http://www.roblox.com/asset/?id=5554237731",
+		Image = "http://www.roblox.com/asset/?id=16656144525",
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(3,3,297,297)
 	},
@@ -97,7 +97,7 @@ local Properties = {
 	Shadow = {
 		Name = "Shadow",
 		BackgroundTransparency = 1,
-		Image = "http://www.roblox.com/asset/?id=5554236805",
+		Image = "http://www.roblox.com/asset/?id=16656144525",
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(23,23,277,277),
 		Size = UDim2.fromScale(1,1) + UDim2.fromOffset(30,30),
@@ -110,7 +110,7 @@ local Properties = {
 	CircleButton = {
 		BackgroundTransparency = 1,
 		AutoButtonColor = false,
-		Image = "http://www.roblox.com/asset/?id=5554831670"
+		Image = "http://www.roblox.com/asset/?id=16656144525"
 	},
 	Frame = {
 		BackgroundTransparency = 1,
@@ -145,16 +145,16 @@ local Properties = {
 		Size = UDim2.fromScale(1,1)
 	},
 	Menu = {
-		Name = "nguyenthanhdat",
+		Name = "dat hub",
 		AutoButtonColor = false,
 		BackgroundTransparency = 1,
-		Image = "http://www.roblox.com/asset/?id=5555108481",
+		Image = "http://www.roblox.com/asset/?id=16656144525",
 		Size = UDim2.fromOffset(20,20),
 		Position = UDim2.fromScale(1,0.5) - UDim2.fromOffset(25,10)
 	},
 	NavBar = {
-		Name = "nguyenthanhdat",
-		Image = "http://www.roblox.com/asset/?id=5576439039",
+		Name = "Dat hub",
+		Image = "http://www.roblox.com/asset/?id=16656144525",
 		BackgroundTransparency = 1,
 		Size = UDim2.fromOffset(20,20),
 		Position = UDim2.fromOffset(5,5),
@@ -315,7 +315,7 @@ function library:Window(text,text2,text3,logo,keybind)
 
 
 	local Top = Instance.new("Frame")
-	Top.Name = "Top"
+	Top.Name = "Dat hub"
 	Top.Parent = Main
 	Top.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 	Top.Size = UDim2.new(0, 656, 0, 27)
@@ -334,7 +334,7 @@ function library:Window(text,text2,text3,logo,keybind)
 	Logo.Image = "rbxassetid://"..tostring(logo)
 
 	local Name = Instance.new("TextLabel")
-	Name.Name = "nguyenthanhdat"
+	Name.Name = "Dat hub"
 	Name.Parent = Top
 	Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Name.BackgroundTransparency = 1.000
@@ -346,7 +346,7 @@ function library:Window(text,text2,text3,logo,keybind)
 	Name.TextSize = 17.000
 
 	local Hub = Instance.new("TextLabel")
-	Hub.Name = "Hub"
+	Hub.Name = "dat hub"
 	Hub.Parent = Top
 	Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Hub.BackgroundTransparency = 1.000
@@ -372,7 +372,7 @@ function library:Window(text,text2,text3,logo,keybind)
 
 
 	local BindButton = Instance.new("TextButton")
-	BindButton.Name = "BindButton"
+	BindButton.Name = "Dat hub"
 	BindButton.Parent = Top
 	BindButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	BindButton.BackgroundTransparency = 1.000
@@ -406,7 +406,7 @@ function library:Window(text,text2,text3,logo,keybind)
 	local SearchStroke = Instance.new("UIStroke")
 
 
-	Luna.Name = "Ripple"
+	Luna.Name = "Dat hub"
 	Luna.Parent = game.CoreGui
 	Luna.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -417,7 +417,7 @@ function library:Window(text,text2,text3,logo,keybind)
 	ToggleFrameUi.Size = UDim2.new(0, 198, 0, 48)
 
 	SearchStroke.Thickness = 1
-	SearchStroke.Name = ""
+	SearchStroke.Name = "dat hub"
 	SearchStroke.Parent = ToggleFrameUi
 	SearchStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 	SearchStroke.LineJoinMode = Enum.LineJoinMode.Round
